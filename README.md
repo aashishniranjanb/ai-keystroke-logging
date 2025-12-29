@@ -32,20 +32,6 @@ graph TD;
     Risk_Classification --> Log_File[Local Log File: keylog_ai.txt];
     Log_File --> Streamlit_Dashboard;
 ```
-*(Alternative text representation below if Mermaid is not supported)*
-```text
-Keyboard Input
-↓
-AI-Enhanced Keystroke Agent
-↓
-Behavior Pattern Analysis
-↓
-Risk Classification (PIN / Password / Normal)
-↓
-Local Log File (keylog_ai.txt)
-↓
-Streamlit Awareness Dashboard
-```
 
 ---
 
@@ -95,9 +81,9 @@ streamlit run app.py
 
 ## 📊 Sample Output
 ```text
-[POSSIBLE PIN ENTRY]        → 4829
+[POSSIBLE PIN ENTRY]        → 2689
 [POSSIBLE PASSWORD ENTRY]   → pass@123
-[NORMAL INPUT]              → hello this is demo
+[NORMAL INPUT]              → hello this is aashish
 ```
 
 ---
